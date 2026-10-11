@@ -1,0 +1,85 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Arial', sans-serif;
+}
+
+/* body{} */
+.main-header {
+    display: flex;
+    justify-content: space-between;
+    padding: 20px;
+    align-items: center;
+    background-color: #0b1b35;
+    padding: 15px 5%;
+    color: #ffffff;
+}
+
+.logo-container {
+    display: flex;
+    align-items: center;
+    gap: 12px;
+}
+
+.logo-img {
+    margin:0px;
+    width: auto;
+    height: 50px;
+}
+
+.brand-name {
+    font-size: 1rem;
+    letter-spacing: 1px;
+    font-weight: bold;
+}
+
+.nav-menu ul{
+    display: flex;
+    gap: 20px;
+    list-style: none;
+}
+
+.nav-menu a{
+    text-decoration: none;
+    color: #ffffff;
+    font-size: 0.95rem;
+    transition: color 0.5s ease-in-out;
+}
+
+.nav-menu a:hover{
+    color: #00a3e0 ;
+}
+
+.btn {
+    padding: 8px 16px;
+    border-radius: 4px;
+    text-decoration: none;
+    font-size: 0.9rem;
+    font-weight: 600;
+    margin-left: 8px;
+}
+
+.btn-outline {
+    border: 1px solid #ffffff;
+    color: #ffffff;
+    transition: all 0.3s ease-in-out;
+}
+
+.btn-primary {
+    background: #E05A47;
+    color: #ffffff;
+    border: 1px solid #E05A47;
+    transition: all 500ms ease-in;
+}
+
+.btn-outline:hover {
+    background: #ffffff;
+    color: #0b1b35;
+}
+
+.btn-primary:hover {
+    background: #fdfdfd;
+    color: #E05A47;
+    border-color: #ffffff;
+}
