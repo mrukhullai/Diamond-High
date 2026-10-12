@@ -2,7 +2,25 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-    font-family: 'Arial', sans-serif;
+    text-align: justify;
+}
+
+@font-face {
+    font-family: 'CinzelLocal', serif;
+    src: url('../fonts/Cinzel/static/Cinzel-Bold.ttf') format('truetype');
+    font-weight: 700;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'cinzel1', serif;
+    src: url('../fonts/Cinzel/static/Cinzel-Black.ttf') format('truetype');
+    font-weight: 400;
+    font-style: normal;
+}
+
+a {
+    cursor: pointer;
 }
 
 /* body{} */
@@ -13,42 +31,62 @@
     align-items: center;
     background-color: #0b1b35;
     padding: 15px 5%;
-    color: #ffffff;
+    color: #f4f4f7;
 }
 
 .logo-container {
     display: flex;
     align-items: center;
-    gap: 12px;
+    gap: 15px;
 }
 
 .logo-img {
-    margin:0px;
+    margin: 0px;
     width: auto;
-    height: 50px;
+    height: 80px;
+    object-fit: contain;
 }
 
 .brand-name {
-    font-size: 1rem;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    flex-direction: column;
     letter-spacing: 1px;
-    font-weight: bold;
+    cursor: default;
+    /* margin: 10% 0px 10% 0%; */
 }
 
-.nav-menu ul{
+.school {
+    display: flex;
+    font-family: 'CinzelLocal', serif;
+    align-items: center;
+    font-size: 1rem;
+    font-weight: bold;
+    margin: 10% 0px 5% 0px;
+}
+
+.motto {
+    font-family: 'cinzel1', serif;
+    font-size: 0.9rem;
+    font-weight: 400;
+}
+
+.nav-menu ul {
     display: flex;
     gap: 20px;
     list-style: none;
 }
 
-.nav-menu a{
+.nav-menu a {
     text-decoration: none;
     color: #ffffff;
     font-size: 0.95rem;
     transition: color 0.5s ease-in-out;
 }
 
-.nav-menu a:hover{
-    color: #00a3e0 ;
+.nav-menu a:hover {
+    color: #00a3e0;
 }
 
 .btn {
@@ -58,6 +96,12 @@
     font-size: 0.9rem;
     font-weight: 600;
     margin-left: 8px;
+    height: 2rem;
+}
+
+.btn-container {
+    display: flex;
+    gap: 2rem;
 }
 
 .btn-outline {
@@ -79,7 +123,7 @@
 }
 
 .btn-primary:hover {
-    background: #fdfdfd;
+    background-color: #fdfdfd;
     color: #E05A47;
     border-color: #ffffff;
 }
