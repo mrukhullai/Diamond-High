@@ -31,14 +31,15 @@ We will begin with the homepage header and hero section, then expand the website
 - **Build to learn:** develop the project in manageable steps and understand the decisions behind the code.
 - **Honest scope:** distinguish the current prototype from the long-term vision and test assumptions before treating them as facts.
 
-## Project documentation
+## Project foundation
 
 - [Founding Charter](docs/FOUNDING_CHARTER.md) — the purpose and principles of Diamond High.
-- [Product Architecture](docs/PRODUCT_ARCHITECTURE.md) — the conceptual structure and initial boundaries.
-- [Roadmap](docs/ROADMAP.md) — planned stages of development.
-- [Decision Log](docs/DECISION_LOG.md) — important project decisions and why they were made.
+- [Product Brief](docs/PRODUCT_BRIEF.md) — the vision, audiences, and product direction.
+- [Prototype Scope](docs/PROTOTYPE_SCOPE.md) — what belongs in the first demonstration and what is deferred.
+- [Roadmap](docs/ROADMAP.md) — the staged development plan.
+- [Decision Log](docs/DECISION_LOG.md) — important decisions and why they were made.
 
-These documents will be added as the project foundation is established.
+The detailed technical architecture will be developed after these foundations have been reviewed.
 
 ## Development approach
 
@@ -48,7 +49,7 @@ We will work incrementally: define a small goal, inspect the current state, buil
 
 **Stage:** Project foundation and initial prototype planning.
 
-**Immediate focus:** Establish the core project documentation, then design and build the homepage header and hero section.
+**Immediate focus:** Review the project foundation, then move to the homepage header and hero design before implementing code.
 
 ---
 
