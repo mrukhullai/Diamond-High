@@ -1,0 +1,95 @@
+
+/* Header adjustments for smaller screens */
+@media (max-width: 900px) {
+    header {
+        gap: 20px;
+        padding: 18px 4%;
+    }
+
+    nav {
+        gap: 16px;
+    }
+}
+
+
+/* Tablet and smaller desktop */
+@media (max-width: 900px) {
+    header {
+        padding: 16px 4%;
+        gap: 16px;
+        flex-wrap: wrap;
+    }
+
+    header img {
+        width: 56px;
+        height: 56px;
+    }
+
+    header h1 {
+        font-size: 1.35rem;
+    }
+
+    nav {
+        gap: 12px;
+    }
+
+    nav a {
+        font-size: 0.85rem;
+    }
+
+    .header-cta {
+        font-size: 0.8rem;
+        padding: 8px;
+        margin-inline:auto;
+    
+    }
+
+}
+
+/* Phone layout */
+@media (max-width: 600px) {
+    header {
+        padding: 16px 5%;
+        gap: 16px;
+        margin-inline:auto ;
+    }
+
+    header h1 {
+        font-size: 1.25rem;
+    }
+
+    header img {
+        width: 48px;
+        height: 48px;
+    }
+
+    nav {
+        width: 100%;
+        display:none;
+        grid-template-columns: 1fr 1fr   ;
+        gap: 0px;
+    }
+
+    nav a {
+        padding: 10px 0;
+        text-align: center;
+    }
+
+    .header-cta {
+        margin-inline: auto;
+    }
+
+    
+    .menu-toggle {
+        display: block;
+    }
+
+    nav.active {
+        display: grid;
+        gap: 10px;
+    }
+
+    #nw{
+        grid-column: 1/3;
+    }
+}

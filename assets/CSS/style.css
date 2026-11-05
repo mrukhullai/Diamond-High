@@ -1,0 +1,12 @@
+
+/* 1. Fonts */
+@import url('./fontstore.css');
+
+/* 2. Shared foundations */
+@import url('./main/base.css');
+
+/* 3. Desktop and default section styles */
+@import url('./main/header.css');
+
+/* 4. Responsive styles */
+@import url('./media/header.css');

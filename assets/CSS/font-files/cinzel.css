@@ -1,0 +1,17 @@
+@font-face {
+    font-family: 'Cinzelmed';
+    src: url('../../fonts/Cinzel-Medium.ttf') format('truetype');
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'CinzelBold';
+    src: url('../../fonts/Cinzel-Bold.ttf') format('truetype');
+    font-display: swap;
+}
+
+@font-face {
+    font-family:'Cinzel-s-Bold' ;
+    src: url('../../fonts/Cinzel-SemiBold.ttf') format('truetype');
+    font-display: swap;
+}
