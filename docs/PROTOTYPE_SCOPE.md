@@ -1,67 +1,40 @@
-# Diamond High — First Prototype Scope
+# Diamond High — First E-School Prototype Scope
 
 ## Purpose
 
-This document protects the first release from growing into the entire long-term vision. It describes what we intend to demonstrate first, what we will postpone, and how to decide whether a new idea belongs in the current milestone.
+Keep the first release focused on demonstrating the core learner experience rather than attempting the entire long-term e-school vision.
 
 ## In scope
 
-### Milestone A — Public homepage foundation
-- Establish the visual identity and basic page structure.
-- Design and build the homepage header and hero section first.
-- Make the layout responsive.
-- Provide clear navigation and a credible school-facing presentation.
-- Use temporary content or assets when final approved material is not available, and label assumptions clearly.
+### Milestone A — E-school landing page
+- Clearly communicate that Diamond High is an online learning platform.
+- Explain its proposition: understanding, reasoning, application, evidence, and progress.
+- Provide a clear route to explore or enter the learning demonstration.
+- Establish the initial visual identity and reusable interface foundations.
+- Make the layout responsive and accessible.
+- Identify sample content and temporary assets as illustrative.
 
-### Milestone B — Small integrated learning demonstration
-- Add a limited learning area or course entry point.
-- Present one understandable lesson.
-- Include one meaningful activity or check for understanding.
-- Provide clear feedback and a simple indication of progress.
-- Keep the journey small enough that the creator can understand and explain it.
+### Milestone B — One integrated learning journey
+- One representative course, subject, or learning path.
+- One structured lesson.
+- One meaningful practice activity or check for understanding.
+- Explanatory feedback and a reasonable retry/review path.
+- A simple, honest progress state and next step.
+- A journey small enough for the creator to understand and maintain.
 
-### Quality throughout
-- Semantic, readable markup and maintainable styles.
-- Keyboard-friendly interaction and sensible accessibility practices.
-- Responsive behaviour.
-- Basic testing and debugging.
-- Documentation of significant decisions.
-- Version control with clear commits.
+### Quality
+Semantic, readable markup; maintainable styles; keyboard-friendly and accessible interactions; responsive behaviour; basic testing/debugging; documented decisions; clear version-control commits; and a distinction between functional and illustrative content.
 
-## Out of scope for the first prototype
+## Out of scope
 
-Unless new evidence makes one of these essential, defer:
-- A complete school management system.
-- Real student accounts, authentication, or permissions.
-- Storage of real student records or sensitive information.
-- Complex course authoring and assessment engines.
-- Production-grade analytics dashboards.
-- AI tutoring or automated learner profiling.
-- Multi-school tenancy and school-specific administration.
-- Payment, subscription, or commercial billing systems.
-- Production deployment guarantees or claims of institutional readiness.
+Defer a full LMS; real accounts/authentication/role permissions; real sensitive learner data; complete course authoring; complex assessment engines; production analytics or learner profiling; AI tutoring; payments; multi-school tenancy; full school integration; and claims of production readiness or accreditation.
 
 ## Completion checks
 
-The first prototype is ready for review when:
-- The homepage header and hero are coherent and polished.
-- The page remains usable at common desktop and mobile sizes.
-- Navigation and visible controls behave as expected.
-- The learning demonstration can be followed from entry point to feedback/progress without unexplained gaps.
-- Major known limitations are documented.
-- The creator can explain the main structure, styling choices, and interactions.
-- Feedback can be collected without pretending the prototype is a finished platform.
+The landing page clearly communicates the e-school identity. A learner can follow the demonstration from course entry through lesson, activity, feedback, and progress. Feedback is useful; progress claims are evidence-aligned; desktop/mobile usability and visible controls are tested; limitations are documented; and the creator can explain the implementation.
 
-## Change-control rule
+## Change control
 
-When a new idea appears, ask:
-1. Does it directly support the current milestone?
-2. Is it needed to test an important assumption?
-3. Can it be completed without derailing the milestone?
-4. What learning or user value justifies its cost?
+For each new idea ask: Does it support this milestone? Is it needed to test a core learning principle? Can it be completed without derailing scope? What learner value justifies the cost? What privacy, safety, or technical obligations does it introduce? If unclear, record it for later.
 
-If the answer is unclear, record the idea for later instead of expanding the current scope.
-
----
-
-**Current milestone:** Project foundation. After the foundational documents are agreed, the next product-design milestone is the homepage header and hero section.
+**Current milestone:** Phase 0 — baseline recovery and approval. The first design milestone is the e-school landing page and its route into the learning demonstration.
