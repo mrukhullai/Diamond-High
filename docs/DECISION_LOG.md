@@ -1,57 +1,65 @@
 # Diamond High — Decision Log
 
-This log records decisions that meaningfully affect the project's direction. It is not intended to record every small implementation choice.
+This log preserves consequential decisions and their history. When a decision changes, record the change rather than silently rewriting history.
 
 ## D-001 — Diamond High is the project identity
 **Status:** Accepted  
-**Decision:** Use Diamond High as the name of the education website/platform project.  
-**Reason:** It is the user's established project identity. Do not rename it to a generic dashboard or learning portal without explicit agreement.
+**Decision:** Use Diamond High as the name of the education product.
 
 ## D-002 — Build to learn
 **Status:** Accepted  
-**Decision:** The project must support real skill development, not merely produce code quickly.  
-**Reason:** The creator wants to understand, explain, and eventually extend the implementation independently.
+**Decision:** The project must support real skill development; the creator should understand, explain, and extend the implementation.
 
-## D-003 — The first release is a prototype
+## D-003 — First release is a prototype
 **Status:** Accepted  
-**Decision:** The first release is a polished, working prototype rather than a production-ready platform.  
-**Reason:** This keeps the work credible and manageable while allowing the concept to be demonstrated and reviewed.
+**Decision:** Build a focused working prototype, not a production-ready platform.
 
-## D-004 — The first demonstration has two connected priorities
-**Status:** Accepted  
-**Decision:** Prioritise a strong public-facing school website and a small integrated learning demonstration.  
-**Reason:** The project should show both identity and a glimpse of the intended learning experience without attempting to build the entire platform.
+## D-004 — Initial public school website plus learning demo
+**Status:** Superseded by D-011  
+**Decision:** The original plan prioritised a public-facing school website and small learning demonstration. This records the historical framing.
 
-## D-005 — Header and hero come first
-**Status:** Accepted  
-**Decision:** The immediate UI milestone is the homepage header and hero section.  
-**Reason:** Establish the public-facing identity and visual direction before expanding into detailed course architecture.
+## D-005 — Header and hero first
+**Status:** Reframed by D-011  
+**Decision:** The original first UI milestone was a conventional school homepage header and hero. The landing page remains important, but its content and information architecture must now communicate an e-school.
 
-## D-006 — Human-centred visual direction
-**Status:** Accepted  
-**Decision:** Aim for a modern, minimal, open, warm, natural, and expressive experience.  
-**Reason:** The site should feel professional and trustworthy without becoming stiff, elitist, or impersonal.
+## D-006 — Initial warm/expressive visual direction
+**Status:** Historical direction superseded  
+**Decision:** Original documents proposed a warm, natural, expressive blue/white school website. Human-centred design remains a principle; the current visual exploration is calmer and navy-led.
 
 ## D-007 — Mastery with support
 **Status:** Accepted  
-**Decision:** Learning should be taken seriously; difficulty should lead to support and reassessment rather than abandonment, while progression should not falsely imply mastery.  
-**Reason:** This balances meaningful academic standards with a humane learning environment.
+**Decision:** Difficulty should lead to support and reassessment; progression should not falsely imply mastery.
 
 ## D-008 — Defer unnecessary technical commitments
 **Status:** Accepted  
-**Decision:** Do not lock in a framework, backend, database, authentication model, or AI stack before requirements justify it.  
-**Reason:** Early technical choices should serve the actual prototype and learning goals.
+**Decision:** Do not lock in framework, backend, database, authentication, or AI stack before requirements justify them.
 
-## D-009 — Feedback should shape later scope
+## D-009 — Feedback shapes later scope
 **Status:** Accepted  
-**Decision:** Treat school-specific assumptions as hypotheses until tested with feedback.  
-**Reason:** The school demonstration and broader platform may require different priorities.
+**Decision:** Treat learner and institutional assumptions as hypotheses until tested.
 
-## D-010 — Avoid real sensitive learner data in the prototype
+## D-010 — Avoid real sensitive learner data in prototype
 **Status:** Accepted  
-**Decision:** Use sample or fictional data for the first demonstration.  
-**Reason:** Real learner information is unnecessary for proving the initial concept and introduces avoidable privacy risks.
+**Decision:** Use sample or fictional data for the first demonstration.
+
+## D-011 — Diamond High is primarily an e-school
+**Status:** Accepted  
+**Decision:** Diamond High's current identity is an online learning platform, centred on course discovery, lessons, practice, feedback, demonstrated understanding, and learner progress. Real-school integration may be considered later but is not the current identity.
+
+## D-012 — Scholar Build is the pedagogical reference
+**Status:** Accepted  
+**Decision:** Use Scholar Build as a reference for understanding before memorisation, reasoning, application, evidence-based mastery, disciplined practice, and continuous improvement. Do not copy its product structure or assume every feature is validated.
+
+## D-013 — Lunacy is the primary design workspace
+**Status:** Accepted  
+**Decision:** Use Lunacy for ongoing interface design. Existing Figma work, if available, is reference material.
+
+## D-014 — Minimalist, navy-led visual exploration
+**Status:** Working direction  
+**Decision:** Explore deep navy foundations, lighter navy surfaces, restrained accents, and clear hierarchy. Exact tokens/components remain subject to review.
+
+## D-015 — Theory, independent practice, milestone review
+**Status:** Accepted  
+**Decision:** Teach relevant theory, let the creator apply it independently, then review at meaningful milestones. Avoid unnecessary click-by-click instruction and constant screenshot requests.
 
 ---
-
-When a decision changes, update its status and explain why. Add new entries for consequential changes rather than silently rewriting the project's history.
