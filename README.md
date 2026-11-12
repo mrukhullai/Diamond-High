@@ -1,56 +1,67 @@
 # Diamond High
 
-**A place to learn, explore, express yourself, and become who you want to be.**
+**An e-school built around understanding, demonstrated competence, and continuous growth.**
 
-Diamond High is a long-term education project and a practical environment for learning software development by building a thoughtful, human-centred learning platform.
+Diamond High is an online learning platform and a practical environment for learning software development by building a thoughtful educational product.
 
-## What we're building
+## Product identity
 
-The long-term vision includes:
+Diamond High is primarily an **e-school**, not a conventional school's public website. Its central experience helps learners discover structured learning, study lessons, practise, demonstrate understanding, receive feedback, and understand their progress.
 
-- A welcoming, modern school website.
-- An online learning experience with courses, lessons, activities, and learner progress.
-- Useful tools for students and educators.
-- Academic insights that help learners understand their progress.
-- Future AI-supported learning and support for independent learners and multiple schools.
+It may eventually integrate with a real school, its educators, learners, and programmes. That is a future possibility, not the current product identity.
 
-These are long-term directions, not promises that every feature will exist in the first release.
+## Educational foundation
 
-## First milestone
+**Scholar Build** is the chosen pedagogical reference, not a product template. Diamond High draws on principles of understanding before memorisation, reasoning, application, evidence-based mastery, disciplined practice, and continuous improvement.
 
-The first goal is a polished, working prototype—not a production-ready school platform.
+The working learning cycle is:
 
-We will begin with the homepage header and hero section, then expand the website and build a small, integrated learning demonstration. Feedback and what we learn during development will guide later decisions.
+**Understand → Reason → Apply → Demonstrate → Review → Progress**
+
+Diamond High remains an independent product with its own user experience, architecture, and feature decisions.
+
+## First prototype
+
+The first release is a focused prototype, not a production-ready learning management system. It should demonstrate one coherent learner journey:
+
+1. Discover a learning programme or course.
+2. Study a structured lesson.
+3. Complete a meaningful practice activity.
+4. Receive explanatory feedback.
+5. See an honest progress state and a useful next step.
+
+The landing page should introduce the e-school and guide visitors toward learning—not present Diamond High primarily as a school admissions website.
 
 ## Principles
 
-- **Learning over time spent:** progress should reflect demonstrated understanding, not merely attendance or elapsed time.
-- **Support without humiliation:** struggling is a reason to offer support, not to abandon a learner.
-- **Freedom with responsibility:** learners should feel able to ask questions, make mistakes, explore, and grow while maintaining meaningful academic standards.
-- **Human-centred design:** make the experience welcoming, accessible, clear, and useful.
-- **Build to learn:** develop the project in manageable steps and understand the decisions behind the code.
-- **Honest scope:** distinguish the current prototype from the long-term vision and test assumptions before treating them as facts.
+- Understanding before memorisation.
+- Evidence before mastery claims.
+- Supportive rigour and useful feedback.
+- Practice, reasoning, and application.
+- Transparent learner progress.
+- Accessible, responsive, human-centred design.
+- Incremental development and honest scope.
 
-## Project foundation
+## Documentation
 
-- [Founding Charter](docs/FOUNDING_CHARTER.md) — the purpose and principles of Diamond High.
-- [Product Brief](docs/PRODUCT_BRIEF.md) — the vision, audiences, and product direction.
-- [Prototype Scope](docs/PROTOTYPE_SCOPE.md) — what belongs in the first demonstration and what is deferred.
-- [Roadmap](docs/ROADMAP.md) — the staged development plan.
-- [Decision Log](docs/DECISION_LOG.md) — important decisions and why they were made.
+- [Founding Charter](docs/FOUNDING_CHARTER.md)
+- [Product Brief](docs/PRODUCT_BRIEF.md)
+- [Prototype Scope](docs/PROTOTYPE_SCOPE.md)
+- [Prototype Roadmap](docs/ROADMAP.md)
+- [Long-term Product Roadmap](docs/PRODUCT_ROADMAP.md)
+- [Scholar Build Learning Reference](docs/LEARNING_PHILOSOPHY_REFERENCE.md)
+- [Decision Log](docs/DECISION_LOG.md)
 
-The detailed technical architecture will be developed after these foundations have been reviewed.
+## Design and working approach
 
-## Development approach
+The current visual exploration is minimalist and navy-led: deep navy foundations, lighter navy surfaces, restrained accents, and clear hierarchy. This remains a working direction. Lunacy is the primary design workspace; existing Figma work is reference material where available.
 
-We will work incrementally: define a small goal, inspect the current state, build and test, review what was learned, and then choose the next step. Technical choices such as frameworks, databases, and backend services will be made when the project has a clear need for them.
+Product cycle: **UNDERSTAND → PLAN → DESIGN → IMPLEMENT → TEST → REVIEW → DOCUMENT**.
+
+Learning cycle: **INSPECT → UNDERSTAND → EXPLORE → APPLY → TEST → REVIEW**.
+
+The creator learns relevant theory, applies it independently, and receives review at meaningful milestones rather than constant click-by-click instruction.
 
 ## Current status
 
-**Stage:** Project foundation and initial prototype planning.
-
-**Immediate focus:** Review the project foundation, then move to the homepage header and hero design before implementing code.
-
----
-
-Diamond High is a work in progress. Its direction should stay grounded in learning, careful engineering, and feedback from the people it is meant to serve.
+**Phase 0 — recovery and baseline refinement.** Reframe the product as an e-school, inspect the existing repository and design, and approve the prototype baseline before implementation resumes.
