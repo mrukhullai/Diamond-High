@@ -1,56 +1,80 @@
 # Diamond High
 
-**A place to learn, explore, express yourself, and become who you want to be.**
+**An e-school built around understanding, demonstrated competence, and continuous growth.**
 
-Diamond High is a long-term education project and a practical environment for learning software development by building a thoughtful, human-centred learning platform.
+Diamond High is an online learning platform and a practical environment for learning software development by building a thoughtful, human-centred educational product.
 
 ## What we're building
 
-The long-term vision includes:
+Diamond High's current identity is an **e-school**, not a conventional school's public website. Its central experience is helping learners discover structured learning, study lessons, practise, demonstrate understanding, receive useful feedback, and understand their progress.
 
-- A welcoming, modern school website.
-- An online learning experience with courses, lessons, activities, and learner progress.
-- Useful tools for students and educators.
-- Academic insights that help learners understand their progress.
-- Future AI-supported learning and support for independent learners and multiple schools.
+The platform may eventually be integrated with a real school, including its educators, learners, and academic programmes. That is a future possibility; it does not define the product's current identity.
 
-These are long-term directions, not promises that every feature will exist in the first release.
+## Educational foundation
 
-## First milestone
+Diamond High takes inspiration from the educational principles developed through **Scholar Build**, used as a pedagogical reference rather than a product template. The central learning cycle is:
 
-The first goal is a polished, working prototype—not a production-ready school platform.
+**Understand → Reason → Apply → Demonstrate → Review → Progress**
 
-We will begin with the homepage header and hero section, then expand the website and build a small, integrated learning demonstration. Feedback and what we learn during development will guide later decisions.
+The platform should favour genuine understanding over memorisation alone, evidence of competence over assumed mastery, supportive feedback over humiliation, and meaningful progression over simply completing content. Diamond High remains an independent product with its own user experience and technical architecture.
 
-## Principles
+## First prototype
 
-- **Learning over time spent:** progress should reflect demonstrated understanding, not merely attendance or elapsed time.
-- **Support without humiliation:** struggling is a reason to offer support, not to abandon a learner.
-- **Freedom with responsibility:** learners should feel able to ask questions, make mistakes, explore, and grow while maintaining meaningful academic standards.
-- **Human-centred design:** make the experience welcoming, accessible, clear, and useful.
-- **Build to learn:** develop the project in manageable steps and understand the decisions behind the code.
-- **Honest scope:** distinguish the current prototype from the long-term vision and test assumptions before treating them as facts.
+The first release is a focused, working prototype—not a production-ready learning management system. It should communicate the e-school identity and demonstrate one coherent learner journey:
 
-## Project foundation
+1. Discover a learning programme or course.
+2. Open and study a lesson.
+3. Complete a meaningful practice activity or knowledge check.
+4. Receive explanatory feedback.
+5. See an honest indication of completion, demonstrated understanding, and a useful next step.
 
-- [Founding Charter](docs/FOUNDING_CHARTER.md) — the purpose and principles of Diamond High.
-- [Product Brief](docs/PRODUCT_BRIEF.md) — the vision, audiences, and product direction.
-- [Prototype Scope](docs/PROTOTYPE_SCOPE.md) — what belongs in the first demonstration and what is deferred.
-- [Roadmap](docs/ROADMAP.md) — the staged development plan.
-- [Decision Log](docs/DECISION_LOG.md) — important decisions and why they were made.
+The homepage/landing page should introduce this learning proposition and guide visitors into the learning experience. It should not present Diamond High as a conventional school admissions website.
 
-The detailed technical architecture will be developed after these foundations have been reviewed.
+## Product principles
 
-## Development approach
+- **Understanding before memorisation:** support conceptual learning and reasoning.
+- **Evidence before mastery claims:** progression should reflect what a learner can demonstrate.
+- **Supportive rigour:** maintain meaningful standards while responding constructively to difficulty.
+- **Practice and application:** connect explanations to meaningful activities and unfamiliar problems.
+- **Transparent progress:** show what has been learned, what remains uncertain, and what comes next.
+- **Human-centred design:** make the experience clear, accessible, responsive, and respectful.
+- **Build to learn:** develop in manageable increments and understand the decisions behind the code.
+- **Honest scope:** distinguish working capabilities from prototypes, assumptions, and future plans.
 
-We will work incrementally: define a small goal, inspect the current state, build and test, review what was learned, and then choose the next step. Technical choices such as frameworks, databases, and backend services will be made when the project has a clear need for them.
+## Project documentation
+
+- [Founding Charter](docs/FOUNDING_CHARTER.md) — purpose, educational commitments, and product principles.
+- [Product Brief](docs/PRODUCT_BRIEF.md) — current e-school identity, audiences, and core experience.
+- [Prototype Scope](docs/PROTOTYPE_SCOPE.md) — what the first demonstration includes and defers.
+- [Prototype Roadmap](docs/ROADMAP.md) — staged plan for the first demonstrable release.
+- [Long-term Product Roadmap](docs/PRODUCT_ROADMAP.md) — possible evolution of the e-school beyond the prototype.
+- [Scholar Build Reference](docs/LEARNING_PHILOSOPHY_REFERENCE.md) — how the pedagogical reference informs Diamond High without making the products identical.
+- [Decision Log](docs/DECISION_LOG.md) — consequential decisions and their history.
+
+## Design direction
+
+The current visual exploration favours a restrained, minimalist interface with a deep-navy foundation, lighter navy surfaces, carefully limited accents, clear typography, and strong information hierarchy. This is a working direction, not a fully approved design system.
+
+Lunacy is the primary design workspace. Existing Figma work, where available, is reference material rather than the source of truth.
+
+## Development and learning approach
+
+Product work follows:
+
+**UNDERSTAND → PLAN → DESIGN → IMPLEMENT → TEST → REVIEW → DOCUMENT**
+
+Learning follows:
+
+**INSPECT → UNDERSTAND → EXPLORE → APPLY → TEST → REVIEW**
+
+The learner (project creator) should make practical decisions independently after learning the relevant theory. Reviews should happen at meaningful milestones rather than through constant screenshot checks or click-by-click instruction.
+
+Technical choices such as frameworks, databases, authentication, and backend services will be made when product requirements justify them.
 
 ## Current status
 
-**Stage:** Project foundation and initial prototype planning.
+**Project phase:** Phase 0 — recovery and baseline refinement.
 
-**Immediate focus:** Review the project foundation, then move to the homepage header and hero design before implementing code.
+**Current direction:** Reframe the product as an e-school, use Scholar Build as a pedagogical reference, reassess the existing repository and design, and approve a coherent prototype baseline before implementation resumes.
 
----
-
-Diamond High is a work in progress. Its direction should stay grounded in learning, careful engineering, and feedback from the people it is meant to serve.
+Diamond High is a work in progress. Its capabilities and educational assumptions must be tested rather than presented as established facts.
