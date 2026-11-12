@@ -1,100 +1,55 @@
 # Diamond High — Product Brief
 
 ## 1. Product summary
-
-Diamond High is a human-centred school website that is intended to grow into an online learning platform. It combines a public-facing school experience with a small demonstration of learning and progress. It is also the main project through which its creator practises and demonstrates software development skills.
+Diamond High is an **e-school: an online learning platform** centred on structured learning, practice, feedback, demonstrated competence, and learner progress. Its current identity is an e-school, not a conventional school's marketing website. Integration with a real school may be considered later.
 
 ## 2. Vision
+Create a digital learning environment where learners discover what to study, build understanding, reason through ideas, practise and apply knowledge, demonstrate competence, receive useful feedback, and make informed progress.
 
-Create a welcoming digital learning environment where students can explore, ask questions, make mistakes, understand their progress, and work toward meaningful academic goals.
+## 3. Pedagogical foundation
+Scholar Build is the chosen pedagogical reference for understanding before memorisation, reasoning, application, evidence-based mastery, disciplined practice, and continuous improvement. Diamond High should translate these principles into its own product rather than copy Scholar Build's structure or features. See [Learning Philosophy Reference](LEARNING_PHILOSOPHY_REFERENCE.md).
 
-The product should feel professional without being stiff, modern without being impersonal, and academically serious without being intimidating.
+## 4. Audiences
+**Initial audience:** independent learners/students who need to discover learning content, study, practise, receive feedback, and understand progress.
 
-## 3. Audiences
+**Potential future audiences:** educators and course creators; parents or guardians where appropriate; schools seeking integration; and administrators of additional institutions. The first prototype should not introduce complex roles or administration prematurely.
 
-### Primary audiences for the first demonstration
-- **School leadership:** needs a clear, credible picture of the school's identity and the project's potential.
-- **Students:** need a welcoming experience that makes information and learning activities easy to find and use.
+## 5. Core learner journey
+1. **Discover** a subject, programme, course, or learning path.
+2. **Orient** around objectives and expected outcomes.
+3. **Study** a structured lesson.
+4. **Practise** through relevant activities.
+5. **Demonstrate** understanding through appropriate evidence.
+6. **Receive feedback** that explains what needs improvement and why.
+7. **Progress** with a clear learning status and useful next step.
 
-### Other audiences to consider later
-- Teachers and other educators.
-- Parents and guardians.
-- Independent learners.
-- Administrators of additional schools.
+This journey does not require every stage to use accounts, databases, or automation in the first prototype.
 
-These future audiences should inform long-term thinking but must not make the first prototype unnecessarily complex.
+## 6. First demonstration
+Build a small integrated e-learning experience, not disconnected screens. The landing page introduces Diamond High as an e-school and guides visitors toward one representative learning journey. It should not be framed around campus facilities or school admissions.
 
-## 4. Product direction
+## 7. Candidate product areas
+These are candidates, not an approved complete module list:
+- Landing page and course discovery.
+- Learning paths, subjects, and course catalogue.
+- Lessons and learning resources.
+- Practice activities and assessments.
+- Feedback and review.
+- Learner progress, mastery, and learning history.
+- Learner home/dashboard.
+- Educator and course-authoring tools.
+- Academic insights and progress visualisations.
+- Future school integration and institutional administration.
 
-The longer-term vision may include:
+Module boundaries, dependencies, and priorities must be confirmed during Phase 0.
 
-- Public school information: home, about, academics, admissions, news, and contact.
-- Online learning: courses, lessons, activities, feedback, and learner progress.
-- Teacher and student tools.
-- Useful academic analytics and progression views.
-- AI-supported learning experiences.
-- Support for independent learners and multiple schools.
+## 8. Design direction
+Current exploration favours minimalist, calm layouts; deep navy foundations and lighter navy surfaces; restrained accents; clear typography and hierarchy; generous spacing; purposeful imagery; responsive and accessible experiences. This is a working direction, not a complete approved design system. Lunacy is the primary design workspace.
 
-These are possible future capabilities. They are not all part of the first release.
+## 9. Prototype success criteria
+The prototype should clearly communicate the e-school identity, explain its learning proposition, guide learners into a coherent experience, demonstrate a lesson/activity/feedback/progress state, work on desktop and mobile, use accessible controls, and be understandable by its creator. It must distinguish real functionality from illustrative content.
 
-## 5. First demonstration
+## 10. Constraints and open questions
+This is not a production LMS. Use sample data; do not assume real accounts, persistent learner records, school integration, or validated outcomes. Resolve during discovery: learner age range and context; representative subject and activity; evidence of understanding; feedback and retry behaviour; useful progress indicators; accessibility, privacy, and safeguarding requirements; and future school integration needs.
 
-The first demonstration should be a small, integrated experience rather than a collection of disconnected screens. It should show the school's identity and visual direction, then provide a credible glimpse of how a learner might study a lesson and see progress.
-
-The first interface milestone is the homepage header and hero section. We should not design detailed course systems before the public-facing foundation is clear.
-
-## 6. Intended first user journey
-
-The initial learning journey to design later is:
-
-1. A learner opens a learning area or course.
-2. The learner studies a lesson.
-3. The learner completes a relevant activity.
-4. The experience provides feedback.
-5. The learner can understand what they have completed and what to do next.
-
-This is a design direction, not a commitment to a particular database, account system, or technical implementation.
-
-## 7. Design character
-
-- Modern, minimal, and open.
-- Warm, natural, and expressive.
-- Professional and trustworthy without elitism.
-- Clear information hierarchy and generous breathing room.
-- Photography and visual effects used intentionally.
-- A blue/white foundation with vivid accents is a possible direction, not a final fixed palette.
-- Responsive and accessible across common screen sizes.
-
-## 8. Success criteria for the first demonstration
-
-The first demonstration should:
-
-- Communicate the identity and purpose of Diamond High clearly.
-- Have a coherent, polished header and hero section.
-- Work at desktop and mobile widths.
-- Use understandable navigation and accessible controls.
-- Demonstrate a small learning journey that feels connected to the rest of the site.
-- Be explainable by its creator, who should understand the code and key decisions.
-- Be honest about which features are real and which are illustrative.
-
-## 9. Constraints and assumptions
-
-- This is a prototype, not a production deployment.
-- Time, current skill, and project complexity are limited; scope must stay manageable.
-- School feedback has not yet validated every assumption.
-- No real student records or sensitive personal data are needed for the initial demonstration.
-- Technical choices should follow demonstrated needs rather than trend or speculation.
-
-## 10. Open questions
-
-These should be answered when they become relevant, not all at once:
-
-- What exact school identity, content, and assets are approved for the demonstration?
-- What do students and school leadership find most useful?
-- Which learning activity best demonstrates the learner journey?
-- Which technical approach fits the prototype and the creator's learning goals?
-- What accessibility and privacy requirements apply if the project later handles real learners?
-
----
-
-**Current status:** Initial product brief. It will be updated as assumptions are tested.
+**Status:** Revised e-school product brief; detailed requirements remain subject to Phase 0 approval.
