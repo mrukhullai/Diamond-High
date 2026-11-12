@@ -1,60 +1,37 @@
 # Diamond High — Founding Charter
 
-## 1. Purpose
+## 1. Purpose and identity
+Diamond High is an **e-school: an online learning platform** built around rigorous, supportive, evidence-informed, and human learning. It helps learners develop understanding, reason through ideas, apply knowledge, demonstrate competence, and make meaningful progress. It is also a practical environment for its creator to learn software development by building a real product.
 
-Diamond High is an education project built around a simple conviction: learning should be rigorous, supportive, and human. The project is also a practical environment in which its creator learns software development and related technical skills by designing, building, testing, and improving a real product.
+Diamond High may later integrate with a real school. That possibility does not change its present identity as an e-school.
 
-**Guiding statement:** A place to learn, explore, express yourself, and become who you want to be.
+## 2. Educational commitments
+- **Understanding before memorisation:** recall is useful, but learners should build conceptual understanding and connect ideas.
+- **Reasoning and application:** learners should explain relationships, justify choices, solve problems, and transfer knowledge.
+- **Evidence before mastery claims:** time spent, attendance, confidence, or completion alone do not prove competence.
+- **Support when struggling:** provide explanation, practice, feedback, and reasonable opportunities to try again.
+- **Questions and mistakes are welcome:** learners should be able to admit confusion and explore without humiliation.
+- **High standards should be humane:** meaningful expectations should coexist with supportive teaching.
+- **Transparent progress:** learners should understand what they can demonstrate, where gaps remain, and what to do next.
 
-## 2. The problem we want to address
-
-Learning environments can fail students in two opposite ways: they can make students afraid to ask questions or make mistakes, and they can advance students without checking whether essential learning has happened. Both undermine meaningful education.
-
-Diamond High aims to demonstrate a better balance: high expectations without intimidation, freedom without academic neglect, and progress supported by evidence of learning.
-
-## 3. Educational commitments
-
-### Learning matters more than time spent
-Attendance, effort, and time are important, but they do not by themselves prove understanding. Essential learning outcomes should be checked before a learner is treated as having mastered them.
-
-### Struggle calls for support
-A learner who is stuck should receive explanation, practice, feedback, and another reasonable opportunity to demonstrate understanding. A difficulty is information about what support is needed, not a permanent label.
-
-### Questions and mistakes are welcome
-Learners should be able to ask questions, challenge ideas respectfully, try approaches, and admit confusion without humiliation.
-
-### High standards should be humane
-The project should preserve meaningful expectations while avoiding fear, shame, or punishment as substitutes for teaching.
-
-### Learners need room to grow
-Education should support curiosity, expression, exploration, and interests beyond a narrow checklist. Structure should help learners progress, not suffocate them.
+## 3. Pedagogical reference
+Scholar Build is the chosen pedagogical reference for understanding, reasoning, application, evidence-based mastery, disciplined practice, and continuous improvement. It is not a product template. Diamond High has its own audience, UX, modules, and technical architecture. See [Learning Philosophy Reference](LEARNING_PHILOSOPHY_REFERENCE.md).
 
 ## 4. Product and design commitments
+- Make online learning the centre of the product.
+- Connect course discovery, lessons, practice, feedback, and progress.
+- Use design to support comprehension and navigation.
+- Treat progress as useful feedback, not a complete judgement of a person.
+- Consider real-school integration only when needs and safeguards are clear.
+- Avoid unsupported claims about outcomes or accreditation.
 
-- Build an experience that feels modern, clear, open, welcoming, and human.
-- Use visual design to support understanding and navigation rather than decoration alone.
-- Make accessibility, responsive layouts, and understandable interactions part of quality.
-- Treat learner progress as useful feedback, not as a way to reduce a person to a score.
-- Listen to students, educators, and school leadership before making strong assumptions about their needs.
-
-## 5. Engineering and learning commitments
-
-- Build in small, understandable increments.
-- Prefer clear foundations over rushed complexity.
-- Explain and document important decisions.
-- Test behaviour instead of assuming that code works.
-- Learn from errors and revise decisions when evidence supports doing so.
-- Distinguish what exists now from what is only planned.
-- Protect private information and avoid collecting sensitive learner data unless a clear, justified need and appropriate safeguards exist.
+## 5. Engineering commitments
+Build in small, understandable increments; document important decisions; test behaviour; distinguish current features from plans; protect private information; and use fictional data in the prototype.
 
 ## 6. What this charter does not claim
+The initial project is a prototype, not a production-ready learning management system, accredited institution, or validated educational intervention. Scholar Build's reference role does not validate every proposed feature. AI, advanced analytics, and school integration remain future possibilities.
 
-The initial project is a prototype and a learning project, not a production-ready school management system, accredited institution, or validated educational intervention. Ideas about future AI features, analytics, independent learning, and multi-school support remain future possibilities until designed and tested.
+## 7. Evolution
+Revise this charter deliberately when project experience, feedback, or better reasoning supports a change. Record consequential changes in the decision log.
 
-## 7. How the charter evolves
-
-This charter is a starting point, not an untouchable rulebook. Changes should be made deliberately when project experience, user feedback, or better reasoning supports them. Important changes should be recorded in the decision log.
-
----
-
-**Current status:** Foundational draft. Review and refine it as the project develops.
+**Status:** Updated foundational charter; requirements remain subject to Phase 0 review.
